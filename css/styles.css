@@ -388,14 +388,19 @@ body {
   }
 
   .section {
-    height: 100lvh;
-    min-height: 100lvh;
+    height: 100svh;
+    min-height: 100svh;
     padding: 1rem 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .section:last-of-type {
+    margin-bottom: 0;
   }
 
   .section--experience {
-    height: 100lvh;
-    min-height: 100lvh;
+    height: auto;
+    min-height: 100svh;
     overflow-y: auto;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
