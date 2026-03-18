@@ -384,13 +384,12 @@ body {
   }
 
   .section {
-    min-height: auto;
+    height: 100svh;
+    min-height: 100svh;
     padding: 2rem 1rem;
   }
 
   .section--hero {
-    min-height: 100vh;
-    min-height: 100dvh;
     padding-top: 2rem;
   }
 
