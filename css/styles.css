@@ -379,6 +379,10 @@ body {
 }
 
 @media (max-width: 720px) {
+  :root {
+    font-size: 15px;
+  }
+
   .dot-nav {
     display: none;
   }
@@ -386,7 +390,7 @@ body {
   .section {
     height: 100svh;
     min-height: 100svh;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 
   .section--experience {
@@ -399,10 +403,6 @@ body {
 
   .section--experience::-webkit-scrollbar {
     display: none;
-  }
-
-  .section--hero {
-    padding-top: 2rem;
   }
 
   .section--hero .container {
